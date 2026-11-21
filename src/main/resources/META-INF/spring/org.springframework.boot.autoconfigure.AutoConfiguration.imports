@@ -1,19 +1,19 @@
 # Multiple Redis for Spring Boot Starter
-# Copyright (c) 2020 Unikue Ltd. All rights reserved.
-# https://unikue.cn
+# Copyright (c) 2020 Jiovan Ltd. All rights reserved.
+# https://jiovan.com
 
-cn.unikue.springstarter.multipleredis.config.PrimaryRedisAutoConfiguration
-cn.unikue.springstarter.multipleredis.config.PrimaryRedisReactiveConfiguration
-cn.unikue.springstarter.multipleredis.config.PrimaryRedisRepositoryConfiguration
-cn.unikue.springstarter.multipleredis.config.PrimaryRedisCacheConfiguration
-cn.unikue.springstarter.multipleredis.config.PrimaryRedisSessionConfiguration
-cn.unikue.springstarter.multipleredis.config.SecondaryRedisAutoConfiguration
-cn.unikue.springstarter.multipleredis.config.SecondaryRedisReactiveConfiguration
-cn.unikue.springstarter.multipleredis.config.SecondaryRedisRepositoryConfiguration
-cn.unikue.springstarter.multipleredis.config.SecondaryRedisCacheConfiguration
-cn.unikue.springstarter.multipleredis.config.SecondaryRedisSessionConfiguration
-cn.unikue.springstarter.multipleredis.config.TertiaryRedisAutoConfiguration
-cn.unikue.springstarter.multipleredis.config.TertiaryRedisReactiveConfiguration
-cn.unikue.springstarter.multipleredis.config.TertiaryRedisRepositoryConfiguration
-cn.unikue.springstarter.multipleredis.config.TertiaryRedisCacheConfiguration
-cn.unikue.springstarter.multipleredis.config.TertiaryRedisSessionConfiguration
+com.jiovan.spring.starter.multipleredis.config.PrimaryRedisAutoConfiguration
+com.jiovan.spring.starter.multipleredis.config.PrimaryRedisReactiveConfiguration
+com.jiovan.spring.starter.multipleredis.config.PrimaryRedisRepositoryConfiguration
+com.jiovan.spring.starter.multipleredis.config.PrimaryRedisCacheConfiguration
+com.jiovan.spring.starter.multipleredis.config.PrimaryRedisSessionConfiguration
+com.jiovan.spring.starter.multipleredis.config.SecondaryRedisAutoConfiguration
+com.jiovan.spring.starter.multipleredis.config.SecondaryRedisReactiveConfiguration
+com.jiovan.spring.starter.multipleredis.config.SecondaryRedisRepositoryConfiguration
+com.jiovan.spring.starter.multipleredis.config.SecondaryRedisCacheConfiguration
+com.jiovan.spring.starter.multipleredis.config.SecondaryRedisSessionConfiguration
+com.jiovan.spring.starter.multipleredis.config.TertiaryRedisAutoConfiguration
+com.jiovan.spring.starter.multipleredis.config.TertiaryRedisReactiveConfiguration
+com.jiovan.spring.starter.multipleredis.config.TertiaryRedisRepositoryConfiguration
+com.jiovan.spring.starter.multipleredis.config.TertiaryRedisCacheConfiguration
+com.jiovan.spring.starter.multipleredis.config.TertiaryRedisSessionConfiguration

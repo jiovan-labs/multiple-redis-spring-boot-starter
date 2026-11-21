@@ -8,18 +8,18 @@ Spring Boot application integrates multiple `redis` quickly.
 
 ```xml
     <dependency>
-        <groupId>cn.unikue.springstarter</groupId>
+        <groupId>com.jiovan.spring.starter</groupId>
         <artifactId>multiple-redis-spring-boot-starter</artifactId>
         <version>LATEST</version>
     </dependency>
 ```
 
-> By default, this starter will auto take effect, you can turn it off by `spring.multiple-redis.enabled = false`
+> By default, this starter will auto take effect, you can turn it off by `jiovan.multiple-redis.enabled = false`
 
-- Configure Spring Boot `application.yml` with prefix `spring.multiple-redis`
+- Configure Spring Boot `application.yml` with prefix `jiovan.multiple-redis`
 
 ```yml
-spring:
+jiovan:
     multiple-redis:
         primary:
             host: '192.168.0.1'
@@ -34,11 +34,11 @@ spring:
 
 > This starter supports 3 `RedisConnectionFactory` at most. (Three strikes and you're out)
 
-- **Optional feature**: If you want to use redis repositories, locate your repositories under the following packages (take `primary` as an example)
+- **Optional feature**: If you want to use Redis repositories, locate your repositories under the following packages (take `primary` as an example)
 
     - Repositories: `**.repository.primary.redis`
 
-- **Optional feature**: If you want to use redis session, replace the original `@EnableRedisHttpSession` annotation with `@EnableMultipleRedisHttpSession` annotation.
+- **Optional feature**: If you want to use Redis session, replace the original `@EnableRedisHttpSession` annotation with `@EnableMultipleRedisHttpSession` annotation.
 
 > Don't forget to specify the 'redisConnection' attribute.
 
@@ -56,13 +56,13 @@ spring:
 | CacheResolver                         | PrimaryRedisCacheConfiguration.CACHE_RESOLVER                    |
 | RedisIndexedSessionRepository         | PrimaryRedisSessionConfiguration.SESSION_REPOSITORY              |
 
-- This starter supports the most popular redis connection factories in the world, including
+- This starter supports the most popular Redis connection factories in the world, including
   - lettuce
   - jedis
 
 ## Document
 
-- Github: https://github.com/unikueltd/multiple-redis-spring-boot-starter
+- Github: https://github.com/jiovan-labs/multiple-redis-spring-boot-starter
 - Redis homepage: https://redis.io
 
 ## Requirement
@@ -77,12 +77,12 @@ See the `NOTICE.txt` file for required notices and attributions.
 
 ## Donation
 
-You like this package? Then [donate to us](https://unikue.cn/donation) to support the development.
+You like this package? Then [donate to us](https://jiovan.com/donation) to support the development.
 
 ## Copyright
 
-Beijing Unikue Network Technology Ltd.
+Beijing Jiovan Technology Ltd.
 
 ## Website
 
-- Unikue: https://unikue.cn
+- Jiovan: https://jiovan.com
